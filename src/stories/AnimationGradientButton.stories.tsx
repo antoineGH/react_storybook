@@ -17,4 +17,6 @@ const Template: ComponentStory<typeof AnimationGradientButton> = (args) => (
 export const Primary = Template.bind({})
 Primary.args = {
 	text: 'My Button',
+	type: 'btn-1',
+	size: 'medium',
 }
