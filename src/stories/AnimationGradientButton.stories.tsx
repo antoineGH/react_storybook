@@ -20,6 +20,8 @@ Primary.args = {
 	type: 'btn-1',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 export const Button1 = Template.bind({})
 Button1.args = {
@@ -27,6 +29,8 @@ Button1.args = {
 	type: 'btn-1',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button2 = Template.bind({})
@@ -35,6 +39,8 @@ Button2.args = {
 	type: 'btn-2',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button3 = Template.bind({})
@@ -43,6 +49,8 @@ Button3.args = {
 	type: 'btn-3',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button4 = Template.bind({})
@@ -51,6 +59,8 @@ Button4.args = {
 	type: 'btn-4',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button5 = Template.bind({})
@@ -59,6 +69,8 @@ Button5.args = {
 	type: 'btn-5',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button6 = Template.bind({})
@@ -67,6 +79,8 @@ Button6.args = {
 	type: 'btn-6',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button7 = Template.bind({})
@@ -75,6 +89,8 @@ Button7.args = {
 	type: 'btn-7',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button8 = Template.bind({})
@@ -83,6 +99,8 @@ Button8.args = {
 	type: 'btn-8',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button9 = Template.bind({})
@@ -91,6 +109,8 @@ Button9.args = {
 	type: 'btn-9',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button10 = Template.bind({})
@@ -99,6 +119,8 @@ Button10.args = {
 	type: 'btn-10',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button11 = Template.bind({})
@@ -107,6 +129,8 @@ Button11.args = {
 	type: 'btn-11',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }
 
 export const Button12 = Template.bind({})
@@ -115,4 +139,6 @@ Button12.args = {
 	type: 'btn-12',
 	size: 'medium',
 	boxShadow: false,
+	fontFamily: 'roboto',
+	fontCase: 'title',
 }

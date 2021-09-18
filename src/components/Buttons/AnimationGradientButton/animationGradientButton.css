@@ -1,7 +1,21 @@
+/* FONTS MANAGEMENT */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato&family=Roboto&display=swap');
+
+/* FONT-FAMILY */
+.font-fira {
+	font-family: 'Fira Sans', sans-serif;
+}
+.font-lato {
+	font-family: 'Lato', sans-serif;
+}
+.font-roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* CUSTOM BUTTON */
 .custom-btn {
 	color: #fff;
 	padding: 10px 25px;
-	font-family: 'Lato', sans-serif;
 	font-weight: 500;
 	background: transparent;
 	cursor: pointer;
@@ -11,11 +25,17 @@
 	outline: none;
 }
 
+button span {
+	display: contents !important;
+}
+
+/* BUTTON SHADOW */
 .btn-box-shadow {
 	box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
 		7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
+/* BUTTON SIZE */
 .btn-small {
 	height: 30px;
 	width: 100px;
@@ -33,7 +53,7 @@
 	font-size: 1rem;
 }
 
-/* 1 */
+/* BUTTON 1 */
 .btn-1 {
 	background: rgb(6, 14, 131);
 	background: linear-gradient(
@@ -52,7 +72,7 @@
 	);
 }
 
-/* 2 */
+/* BUTTON 2 */
 .btn-2 {
 	background: rgb(96, 9, 240);
 	background: linear-gradient(
@@ -73,7 +93,7 @@
 		inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
-/* 3 */
+/* BUTTON 3 */
 .btn-3 {
 	background: rgb(0, 172, 238);
 	background: linear-gradient(
@@ -145,7 +165,7 @@
 	width: 100%;
 }
 
-/* 4 */
+/* BUTTON 4 */
 .btn-4 {
 	background-color: #4dccc6;
 	background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
@@ -216,7 +236,7 @@
 	width: 100%;
 }
 
-/* 5 */
+/* BUTTON 5 */
 .btn-5 {
 	line-height: 42px;
 	padding: 0;
@@ -258,7 +278,7 @@
 	transition: 800ms ease all;
 }
 
-/* 6 */
+/* BUTTON 6 */
 .btn-6 {
 	background: rgb(247, 150, 192);
 	background: radial-gradient(
@@ -338,7 +358,7 @@
 	width: 100%;
 }
 
-/* 7 */
+/* BUTTON 7 */
 .btn-7 {
 	background: linear-gradient(
 		0deg,
@@ -412,7 +432,7 @@
 	width: 100%;
 }
 
-/* 8 */
+/* BUTTON 8 */
 .btn-8 {
 	background-color: #f0ecfc;
 	background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
@@ -433,10 +453,6 @@
 	right: 0;
 	bottom: 0;
 	background: #c797eb;
-	/*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-      inset -4px -4px 6px 0 rgba(255,255,255,.5),
-      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
 	transition: all 0.3s ease;
 }
 .btn-8:before {
@@ -466,10 +482,6 @@
 	left: 0;
 	top: 0;
 	background: #c797eb;
-	/*box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
-                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
-      inset -4px -4px 6px 0 rgba(255,255,255,.5),
-      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);*/
 	transition: all 0.3s ease;
 }
 .btn-8 span:before {
@@ -487,7 +499,7 @@
 	width: 100%;
 }
 
-/* 9 */
+/* BUTTON 9 */
 .btn-9 {
 	border: none;
 	background: rgb(251, 33, 117);
@@ -523,7 +535,7 @@
 		inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* 10 */
+/* BUTTON 10 */
 .btn-10 {
 	background-color: #89d8d3;
 	background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
@@ -555,7 +567,7 @@
 	top: 2px;
 }
 
-/* 11 */
+/* BUTTON 11 */
 .btn-11 {
 	background: rgb(255, 151, 0);
 	border: none;
@@ -587,7 +599,7 @@
 	top: 2px;
 }
 
-/* 12 */
+/* BUTTON 12 */
 .btn-12 {
 	background: #b621fe;
 	border: none;

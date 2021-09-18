@@ -1,33 +1,17 @@
 import './animationGradientButton.css'
-
-type btnType =
-	| 'btn-1'
-	| 'btn-2'
-	| 'btn-3'
-	| 'btn-4'
-	| 'btn-5'
-	| 'btn-6'
-	| 'btn-7'
-	| 'btn-8'
-	| 'btn-9'
-	| 'btn-10'
-	| 'btn-11'
-	| 'btn-12'
-
-interface animationGradientButtonProps {
-	text: string
-	size?: 'small' | 'medium' | 'large'
-	type?: btnType
-	boxShadow?: boolean
-}
+import { animationGradientButtonProps } from './AnimationGradientButtonType'
+import { selectCaseText } from './utils/selectCaseText'
 
 export const AnimationGradientButton = ({
 	text,
 	size,
 	type,
 	boxShadow,
+	fontFamily,
+	fontCase,
 }: animationGradientButtonProps) => {
-	console.log(boxShadow)
+	text = selectCaseText(fontCase!, text)
+
 	return (
 		<>
 			<button
@@ -36,6 +20,7 @@ export const AnimationGradientButton = ({
 					`btn-${size}`,
 					type,
 					boxShadow && 'btn-box-shadow',
+					`font-${fontFamily}`,
 				].join(' ')}>
 				<span>{text}</span>
 			</button>
