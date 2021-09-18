@@ -12,10 +12,7 @@ type btnType =
 	| 'btn-9'
 	| 'btn-10'
 	| 'btn-11'
-	| 'btn-13'
-	| 'btn-14'
-	| 'btn-15'
-	| 'btn-16'
+	| 'btn-12'
 
 interface animationGradientButtonProps {
 	text: string
