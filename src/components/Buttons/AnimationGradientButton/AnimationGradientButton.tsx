@@ -18,16 +18,25 @@ interface animationGradientButtonProps {
 	text: string
 	size?: 'small' | 'medium' | 'large'
 	type?: btnType
+	boxShadow?: boolean
 }
 
 export const AnimationGradientButton = ({
 	text,
 	size,
 	type,
+	boxShadow,
 }: animationGradientButtonProps) => {
+	console.log(boxShadow)
 	return (
 		<>
-			<button className={['custom-btn', `btn-${size}`, type].join(' ')}>
+			<button
+				className={[
+					'custom-btn',
+					`btn-${size}`,
+					type,
+					boxShadow && 'btn-box-shadow',
+				].join(' ')}>
 				<span>{text}</span>
 			</button>
 		</>
