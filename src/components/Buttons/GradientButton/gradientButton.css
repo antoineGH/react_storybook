@@ -1,0 +1,18 @@
+/* FONTS MANAGEMENT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CUSTOM BUTTON */
+.gradient-btn {
+	padding: 12px 25px;
+	text-transform: uppercase;
+	border-radius: 1.25rem;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.85rem;
+	letter-spacing: 0.05rem;
+	width: 150px;
+	font-weight: 500;
+	color: white;
+	background-color: #08e1ae;
+	background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+}
